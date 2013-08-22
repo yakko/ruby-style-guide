@@ -821,7 +821,7 @@ Never use `::` for regular method invocation.
         end
       end
 
-      # good
+      # good - use a different argument name
       def do_something(params = {})
         unless params[:when] == :later
           output(options[:message])
